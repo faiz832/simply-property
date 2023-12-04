@@ -7,7 +7,7 @@ const Header = () => {
   const [toggle, showMenu] = useState(false);
 
   return (
-    <div className="w-full top-0 left-0 py-4 border-b mb-12 bg-white z-20">
+    <div className="w-full top-0 left-0 py-4 border-b bg-white z-20">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
           <img src={Logo} alt="" />

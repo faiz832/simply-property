@@ -14,7 +14,7 @@ const PropertyDetails = () => {
   });
 
   return (
-    <section>
+    <section className="mt-12">
       <div className="container mx-auto mb-14">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
           <div>

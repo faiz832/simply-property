@@ -4,7 +4,7 @@ import HouseList from "../components/HouseList";
 
 const Propertylist = () => {
   return (
-    <div className="min-h-[1800px]">
+    <div className="min-h-[1800px] mt-12">
       <Banner />
       <HouseList />
     </div>

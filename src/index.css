@@ -60,3 +60,13 @@ html {
     top: 4rem;
   }
 }
+
+.wallpaper {
+  display: flex;
+  width: auto;
+  height: 400px;
+  background: url(./assets/img/profile.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
