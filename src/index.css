@@ -22,3 +22,41 @@
     @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.h-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu-open {
+  display: none;
+}
+
+@media (max-width: 510px) {
+  .menu-open {
+    display: block;
+  }
+  .h-menu {
+    position: absolute;
+    gap: 1rem;
+    font-weight: 500;
+    flex-direction: column;
+    right: 0rem;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    transition: all 200ms ease;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    top: -100%;
+  }
+  .show-menu {
+    top: 4rem;
+  }
+}
