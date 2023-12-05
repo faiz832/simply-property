@@ -54,6 +54,14 @@ import Agent10 from "./assets/img/agents/agent10.png";
 import Agent11 from "./assets/img/agents/agent11.png";
 import Agent12 from "./assets/img/agents/agent12.png";
 
+//dealdone
+import gambar1 from "./assets/img/dealdone/work1.jpg";
+import gambar2 from "./assets/img/dealdone/work2.jpg";
+import gambar3 from "./assets/img/dealdone/work3.jpg";
+
+//testi
+import person1 from "./assets/img/testimoni/person1.png";
+
 export const housesData = [
   {
     id: 1,
@@ -432,5 +440,71 @@ export const housesData = [
       name: "Karen Sorensen",
       phone: "0123 456 78910",
     },
+  },
+];
+
+export const dealDone = [
+  {
+    id: 1,
+    img: gambar1,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 2,
+    img: gambar2,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 3,
+    img: gambar3,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 4,
+    img: gambar3,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 5,
+    img: gambar3,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 6,
+    img: gambar3,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+];
+
+export const testimoni = [
+  {
+    id: 1,
+    img: person1,
+    text: "Amanah, dijamin top deh. pilih yang oke oke aja",
+  },
+  {
+    id: 2,
+    img: person1,
+    text: "Pelayanannya baik, fast respon. Pokoknya saya saranin beli tanah disini deh",
+  },
+  {
+    id: 3,
+    img: person1,
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ullam eaque",
+  },
+  {
+    id: 4,
+    img: person1,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 5,
+    img: person1,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 6,
+    img: person1,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
   },
 ];

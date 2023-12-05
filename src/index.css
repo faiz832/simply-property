@@ -70,3 +70,20 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.slick-slide div {
+  margin: 0 1rem 1rem 0;
+}
+
+.testi-wrapper {
+  display: flex !important;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-self: center;
+  align-items: center;
+}
+
+.testi-wrapper img {
+  width: 5rem;
+  height: 5rem;
+}
