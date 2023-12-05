@@ -50,7 +50,11 @@ const DealdoneSlider = () => {
       },
     ],
   };
-  return <Slider {...settings}>{dealdone}</Slider>;
+  return (
+    <Slider {...settings} className="mx-2">
+      {dealdone}
+    </Slider>
+  );
 };
 
 export default DealdoneSlider;
