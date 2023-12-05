@@ -7,7 +7,7 @@ import { testimoni } from "../data";
 const TestimoniSlider = () => {
   const Testimoni = testimoni.map((result, index) => {
     return (
-      <div className="testi-wrapper  h-44" key={index}>
+      <div className="testi-wrapper" key={index}>
         <img src={result.img} alt="" className="mb-2" />
         <p className="p-2 px-8 text-xs text-center">{result.text}</p>
       </div>
@@ -30,7 +30,7 @@ const TestimoniSlider = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
