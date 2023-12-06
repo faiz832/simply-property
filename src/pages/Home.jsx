@@ -21,7 +21,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto flex flex-row justify-center gap-2 md:gap-14 lg:gap-20 bg-white my-8 pb-8">
+      <div className="container mx-auto flex flex-row justify-center gap-2 md:gap-14 lg:gap-20 my-8">
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 py-2 px-4 ">
           <MdOutlineRealEstateAgent className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
@@ -51,8 +51,8 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-gradient-to-l from-gray-200 to-white">
-        <div className="container mx-auto py-24 flex flex-row items-center justify-center bg-none">
-          <div className="flex flex-row gap-4 md:flex-col md:justify-start lg:px-12 w-2/4">
+        <div className="container mx-auto py-16 flex flex-row items-center justify-center bg-none">
+          <div className="flex gap-4 flex-col w-3/4 md:justify-start lg:px-12 lg:w-2/4">
             <h1 className="font-semibold text-amber-500 text-xl">Kenapa Memilih Kami</h1>
             <h1 className="font-bold text-4xl">
               Pilihan Terbaik <br /> Sepanjang Masa
@@ -61,11 +61,11 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
               hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
             </p>
-            <Link to="/about" className="p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-1/4 text-center font-semibold text-white">
+            <Link to="/about" className="p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white">
               About Us
             </Link>
           </div>
-          <div className="w-2/4 flex justify-end px-12">
+          <div className="w-2/4 lg:flex justify-end px-12 hidden">
             {/* <div className="p-4 bg-white rounded-3xl"> */}
             <div className="home-img"></div>
             {/* </div> */}
