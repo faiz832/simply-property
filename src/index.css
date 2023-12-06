@@ -44,7 +44,7 @@ html {
   .h-menu {
     position: absolute;
     gap: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     flex-direction: column;
     right: 0rem;
     background: white;
@@ -119,6 +119,19 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.accordionItem {
+  background: white;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.accordionItem.expanded {
+  box-shadow: 0px 23px 21px -8px rgb(229, 231, 235);
+  border-radius: 6px;
 }
 
 /* scroll up  */

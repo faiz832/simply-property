@@ -51,7 +51,7 @@ const Home = () => {
       <div id="asd" className="bg-gradient-to-l from-gray-200 to-white">
         <div className="container mx-auto py-16 flex flex-row items-center justify-center bg-none">
           <div className="flex gap-4 flex-col w-3/4 md:justify-start lg:px-12 lg:w-2/4">
-            <h1 className="font-semibold text-amber-500 text-2xl">Kenapa Memilih Kami</h1>
+            <h1 className="font-bold text-amber-500 text-2xl">Kenapa Memilih Kami</h1>
             <h1 className="font-bold text-4xl lg:text-6xl">
               Pilihan Terbaik <br /> Sepanjang Masa
             </h1>
@@ -101,8 +101,10 @@ const Home = () => {
             <img src={imgDropship} alt="" className="w-full md:w-80" />
             <div className="m-12 flex flex-col gap-2">
               <h1 className="text-4xl font-bold text-white">FREE !</h1>
-              <h1 className=" text-xl font-semibold text-[#f8c97b]">Join Our Dropship</h1>
-              <h1 className=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure corporis veniam atque quo veritatis excepturi laudantium modi necessitatibus dolor mollitia!. Join di Telegram kita!</h1>
+              <h1 className=" text-xl font-bold text-[#f8c97b]">Join Our Dropship</h1>
+              <h1 className=" text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto obcaecati quasi, quisquam quam sapiente itaque repellat atque voluptatum quidem libero quos eaque sunt rem sed corrupti, nesciunt labore
+              </h1>
               <a href="https://t.me/simplyproperty" target="blank" className="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 w-36 justify-center rounded-full py-1 mt-2">
                 <BiLogoTelegram className="text-white me-2" size={20} /> <p className="font-semibold text-white text-md">Telegram</p>
               </a>
