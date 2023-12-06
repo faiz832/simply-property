@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="pt-12 pb-4 bg-gray-200">
       <div className="flex flex-col container mx-auto gap-y-4 text-center lg:flex-row lg:justify-between">
-        <div className="lg:text-start lg:w-3/12">
+        <div className="lg:text-start w-3/4 md:w-2/4 mx-auto lg:mx-0 lg:w-3/12">
           <div className="text-xl font-semibold lg:text-2xl">SIMPLY Property.</div>
-          <p className="text-xs my-2 lg:text-justify ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae saepe porro dolorem molestiae incidunt quae repellendus ea natus ipsa ut. Itaque suscipit repellat sed modi.</p>
+          <p className="text-xs my-2 lg:text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae saepe porro dolorem molestiae incidunt quae repellendus ea natus ipsa ut. Itaque suscipit repellat sed modi.</p>
           <p className="text-sm my-2">
             Jalan Lor In, RT.01/RW.04, <br /> Tuban Lor, Tuban, Kec. Gondangrejo, <br /> Kab. Karanganyar, Jawa Tengah 57773
           </p>

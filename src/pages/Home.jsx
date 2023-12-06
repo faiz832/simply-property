@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="mb-14">
-      <div className="wallpaper py-16 items-center justify-center">
+      <div className="bg-home1 py-16 items-center justify-center">
         <div className="container mx-auto">
           <h1 className="text-4xl lg:text-6xl font-semibold flex flex-col gap-4 text-white">
             Temukan Property <span> Masa Depan Anda</span>
@@ -61,7 +61,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
               hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
             </p>
-            <Link to="/about" className="p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white">
+            <Link to="/about" className="mt-2 p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white">
               About Us
             </Link>
           </div>
@@ -72,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto my-12 pt-12">
+      <div className="container mx-auto my-16">
         <div className="mb-12 text-center">
           <h2 className="font-bold text-3xl">Deal Done</h2>
           <p className="text-sm mt-2">Menyelesaikan transaksi terbaru kami dengan sukses</p>
@@ -81,8 +81,16 @@ const Home = () => {
           <DealdoneSlider />
         </div>
       </div>
-      <div className="container mx-auto h-[400px]">Buy Your Dream House With Us.</div>
-      <div className="container mx-auto my-12">
+      <div className="bg-home2">
+        <div className="container mx-auto p-12 text-center justify-center flex flex-col gap-4">
+          <h1 className="font-bold text-4xl text-white lg:w-2/4 lg:mx-auto">Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik</h1>
+          <p className="text-xl font-semibold text-white">Buy Your Dream House With Us.</p>
+          <Link to="/propertylist" className="p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white">
+            Properties
+          </Link>
+        </div>
+      </div>
+      <div className="container mx-auto my-16">
         <div className="mb-12 text-center">
           <h2 className="font-bold text-3xl">Testimoni</h2>
           <p className="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque.</p>
@@ -92,7 +100,7 @@ const Home = () => {
         </div>
       </div>
       <div className="">
-        <div className="container mx-auto my-12">
+        <div className="container mx-auto my-16">
           <div className="flex flex-col md:flex-row bg-gradient-to-r from-gray-900 to-gray-700">
             <img src={imgDropship} alt="" className="w-full md:w-80" />
             <div className="m-12 flex flex-col gap-2">

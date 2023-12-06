@@ -61,7 +61,7 @@ html {
   }
 }
 
-.wallpaper {
+.bg-home1 {
   display: flex;
   width: auto;
   height: 400px;
@@ -80,6 +80,16 @@ html {
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
+}
+
+.bg-home2 {
+  display: flex;
+  width: auto;
+  height: 400px;
+  background: url(./assets/img/bghome2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slick-slide div {
