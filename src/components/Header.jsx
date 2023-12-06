@@ -15,21 +15,21 @@ const Header = () => {
         <div className={toggle === true ? "h-menu show-menu" : "h-menu"}>
           <div>
             <Link to="/" className="hover:text-violet-700 transition " onClick={() => showMenu(false)}>
-              Home
+              HOME
             </Link>
           </div>
           <div>
             <Link to="/about" className="hover:text-violet-700 transition " onClick={() => showMenu(false)}>
-              About
+              ABOUT
             </Link>
           </div>
           <div>
             <Link to="/propertylist" className="hover:text-violet-700 transition " onClick={() => showMenu(false)}>
-              Properties
+              PROPERTIES
             </Link>
           </div>
           <a href="https://wa.me/62895335976572?text=Halo, Saya tertarik dengan property anda!" target="blank" className="text-sm bg-slate-950 text-white px-4 py-3 rounded-lg transition" onClick={() => showMenu(false)}>
-            Hubungi Kami
+            CONTACT US
           </a>
         </div>
         <div className="menu-open" onClick={() => showMenu(!toggle)}>
