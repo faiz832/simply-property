@@ -15,13 +15,13 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2 lg:text-start">
           <h1 className="font-semibold">EXPLORE</h1>
-          <Link to="/" className="hover:text-violet-700 transition text-sm">
+          <Link to="/" className="hover:text-amber-500 transition text-sm">
             HOME
           </Link>
-          <Link to="/about" className="hover:text-violet-700 transition text-sm">
+          <Link to="/about" className="hover:text-amber-500 transition text-sm">
             ABOUT
           </Link>
-          <Link to="/propertylist" className="hover:text-violet-700 transition text-sm">
+          <Link to="/propertylist" className="hover:text-amber-500 transition text-sm">
             PROPERTIES
           </Link>
         </div>

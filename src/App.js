@@ -6,11 +6,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import PropertyDetails from "./pages/PropertyDetails";
 import Propertylist from "./pages/Propertylist";
+import ScrollUp from "./components/ScrollUp";
 
 const App = () => {
   return (
     <div className="max-w-[1440px] mx-auto bg-white">
       <Header />
+      <ScrollUp />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

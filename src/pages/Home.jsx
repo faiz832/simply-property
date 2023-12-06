@@ -26,7 +26,7 @@ const Home = () => {
           <MdOutlineRealEstateAgent className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={20} duration={2} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={100} duration={2} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Premium Quality</span>
           </div>
@@ -35,7 +35,7 @@ const Home = () => {
           <MdOutlineHomeWork className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={20} duration={2} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={100} duration={2} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Property Terjual</span>
           </div>
@@ -44,7 +44,7 @@ const Home = () => {
           <HiOutlineUserGroup className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={20} duration={2} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={100} duration={2} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Happy Customer</span>
           </div>
