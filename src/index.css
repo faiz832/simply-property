@@ -66,6 +66,7 @@ html {
   width: auto;
   height: 400px;
   background: url(./assets/img/profile.jpeg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +79,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -107,6 +107,18 @@ html {
 .testi-wrapper img {
   width: 5rem;
   height: 5rem;
+}
+
+/* about  */
+.bg-about {
+  display: flex;
+  width: auto;
+  height: 400px;
+  background: url(./assets/img/bgabout.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* scroll up  */

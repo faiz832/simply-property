@@ -1,17 +1,15 @@
 import React from "react";
 import { BiLogoFacebook, BiLogoWhatsapp, BiLogoTiktok, BiLogoInstagram, BiSolidPhone, BiEnvelope, BiLogoTelegram, BiLogoYoutube } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import FooterLogo from "../assets/img/LOGO SIMPLY PROPERTY PUTIH.png";
 
 const Footer = () => {
   return (
-    <footer className="pt-12 pb-4 bg-gray-200">
+    <footer className="pt-12 pb-4 bg-[#1c1c1c] text-white">
       <div className="flex flex-col container mx-auto gap-y-4 text-center lg:flex-row lg:justify-between">
-        <div className="lg:text-start w-3/4 md:w-2/4 mx-auto lg:mx-0 lg:w-3/12">
-          <div className="text-xl font-semibold lg:text-2xl">SIMPLY Property.</div>
-          <p className="text-xs my-2 lg:text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae saepe porro dolorem molestiae incidunt quae repellendus ea natus ipsa ut. Itaque suscipit repellat sed modi.</p>
-          <p className="text-sm my-2">
-            Jalan Lor In, RT.01/RW.04, <br /> Tuban Lor, Tuban, Kec. Gondangrejo, <br /> Kab. Karanganyar, Jawa Tengah 57773
-          </p>
+        <div className="lg:text-start w-3/4 md:w-2/4 mx-auto lg:mx-0 lg:w-1/6">
+          <img src={FooterLogo} alt="footer img" className="w-52 mx-auto lg:mx-0" />
+          <p className="text-xs my-4 lg:text-justify lg:w-48 xl:w-52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi, fuga ad sapiente doloribus mollitia?</p>
         </div>
         <div className="flex flex-col gap-2 lg:text-start">
           <h1 className="font-semibold">EXPLORE</h1>
@@ -35,25 +33,31 @@ const Footer = () => {
               <BiSolidPhone className="me-2" /> <p className="text-sm">0823-7722-0212</p>
             </div>
             <div className="flex items-center justify-center lg:justify-start">
-              <BiEnvelope className="me-2" /> <p className="text-sm">simplyproperty@gmail.com</p>
+              <BiLogoTelegram className="me-2" /> <p className="text-sm">@simplyproperty</p>
             </div>
-            <div className="flex flex-row gap-2 mt-1 justify-center lg:justify-start">
-              <a href="https://www.facebook.com/tanahdijualsolo/" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-blue-700 to-blue-500 hover:text-violet-700">
-                <BiLogoFacebook className="text-white" />
-              </a>
-              <a href="https://www.youtube.com/@simplyproperty" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-red-700 to-red-500 hover:text-violet-700">
-                <BiLogoYoutube className="text-white" />
-              </a>
-              <a href="https://www.tiktok.com/@jualbelitanahsoloraya" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-slate-950 to-slate-800 hover:text-violet-700">
-                <BiLogoTiktok className="text-white" />
-              </a>
-              <a href="https://t.me/simplyproperty" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-cyan-500 to-blue-500">
-                <BiLogoTelegram className="text-white" />
-              </a>
-              <a href="https://www.instagram.com/simplyproperty.id/" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-red-500 to-violet-500 hover:text-violet-700">
-                <BiLogoInstagram className="text-white" />
-              </a>
-            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 lg:text-start">
+          <h1 className="font-semibold">MORE INFO</h1>
+          <p className="text-sm">
+            Jalan Lor In, RT.01/RW.04, <br /> Tuban Lor, Tuban, Kec. Gondangrejo, <br /> Kab. Karanganyar, Jawa Tengah 57773
+          </p>
+          <div className="flex items-center justify-center lg:justify-start">
+            <BiEnvelope className="me-2" /> <p className="text-sm">simplyproperty@gmail.com</p>
+          </div>
+          <div className="flex flex-row gap-2 mt-1 justify-center lg:justify-start">
+            <a href="https://www.facebook.com/tanahdijualsolo/" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-blue-700 to-blue-500 hover:text-violet-700">
+              <BiLogoFacebook className="text-white" />
+            </a>
+            <a href="https://www.youtube.com/@simplyproperty" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-red-700 to-red-500 hover:text-violet-700">
+              <BiLogoYoutube className="text-white" />
+            </a>
+            <a href="https://www.tiktok.com/@jualbelitanahsoloraya" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-slate-950 to-slate-800 hover:text-violet-700">
+              <BiLogoTiktok className="text-white" />
+            </a>
+            <a href="https://www.instagram.com/simplyproperty.id/" target="blank" className="flex items-center p-1 rounded bg-gradient-to-r from-red-500 to-violet-500 hover:text-violet-700">
+              <BiLogoInstagram className="text-white" />
+            </a>
           </div>
         </div>
         <div className="flex justify-center lg:justify-start">

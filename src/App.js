@@ -7,10 +7,12 @@ import About from "./pages/About";
 import PropertyDetails from "./pages/PropertyDetails";
 import Propertylist from "./pages/Propertylist";
 import ScrollUp from "./components/ScrollUp";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <div className="max-w-[1440px] mx-auto bg-white">
+      <ScrollToTop />
       <Header />
       <ScrollUp />
       <Routes>
