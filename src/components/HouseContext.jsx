@@ -54,7 +54,7 @@ const HouseContextProvider = ({ children }) => {
     const newHouses = housesData.filter((house) => {
       const housePrice = parseInt(house.price);
       //if all value are selected
-      if (house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice) {
+      if (house.country === country && house.type.startsWith(property) && housePrice >= minPrice && housePrice <= maxPrice) {
         return house;
       }
 
@@ -70,7 +70,7 @@ const HouseContextProvider = ({ children }) => {
 
       //if property is not default
       if (isDefault(country) && !isDefault(property) && isDefault(price)) {
-        return house.type === property;
+        return house.type.startsWith(property);
       }
 
       //if price is not default
@@ -82,7 +82,7 @@ const HouseContextProvider = ({ children }) => {
 
       // if country & property is not default
       if (!isDefault(country) && !isDefault(property) && isDefault(price)) {
-        return house.country === country && house.type === property;
+        return house.country === country && house.type.startsWith(property);
       }
 
       //if country and price is not default
@@ -95,7 +95,7 @@ const HouseContextProvider = ({ children }) => {
       //property and price is not default
       if (isDefault(country) && !isDefault(property) && !isDefault(price)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
-          return house.type === property;
+          return house.type.startsWith(property);
         }
       }
     });
