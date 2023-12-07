@@ -49,8 +49,8 @@ const Home = () => {
         </div>
       </div>
       <div id="asd" className="bg-gradient-to-l from-gray-200 to-white">
-        <div className="container mx-auto py-16 flex flex-row items-center justify-center bg-none">
-          <div className="flex gap-4 flex-col w-3/4 md:justify-start lg:px-12 lg:w-2/4">
+        <div className="container mx-auto py-16 flex flex-row items-center justify-center ">
+          <div className="flex flex-col gap-4 mx-4 md:w-3/4 md:justify-start lg:px-12 lg:w-2/4">
             <h1 className="font-bold text-amber-500 text-2xl">Kenapa Memilih Kami</h1>
             <h1 className="font-bold text-4xl lg:text-6xl">
               Pilihan Terbaik <br /> Sepanjang Masa
