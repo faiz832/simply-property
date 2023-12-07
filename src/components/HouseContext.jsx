@@ -8,7 +8,7 @@ const HouseContextProvider = ({ children }) => {
   const [country, setCountry] = useState("Lokasi (semua)");
   const [countries, setCountries] = useState([]);
   const [property, setProperty] = useState("Tipe (semua)");
-  const [properties, setProperties] = useState([]);
+  // const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState("Harga (semua)");
   const [loading, setLoading] = useState(false);
 
@@ -25,16 +25,16 @@ const HouseContextProvider = ({ children }) => {
   }, []);
 
   // return all property
-  useEffect(() => {
-    const allProperty = houses.map((house) => {
-      return house.type;
-    });
-    //remove duplicates
-    const uniqueProperties = ["Property (semua)", ...new Set(allProperty)];
+  // useEffect(() => {
+  //   const allProperty = houses.map((house) => {
+  //     return house.type;
+  //   });
+  //   //remove duplicates
+  //   const uniqueProperties = ["Tipe (semua)", ...new Set(allProperty)];
 
-    //set country state
-    setProperties(uniqueProperties);
-  }, []);
+  //   //set country state
+  //   setProperties(uniqueProperties);
+  // }, []);
 
   const handleClick = () => {
     //set loading
@@ -108,7 +108,7 @@ const HouseContextProvider = ({ children }) => {
     return newHouses;
   };
 
-  return <HouseContext.Provider value={{ country, setCountry, countries, setCountries, property, setProperty, properties, setProperties, price, setPrice, houses, loading, handleClick }}>{children}</HouseContext.Provider>;
+  return <HouseContext.Provider value={{ country, setCountry, countries, setCountries, property, setProperty, price, setPrice, houses, loading, handleClick }}>{children}</HouseContext.Provider>;
 };
 
 export default HouseContextProvider;

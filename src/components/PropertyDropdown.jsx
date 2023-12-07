@@ -4,8 +4,38 @@ import { Menu } from "@headlessui/react";
 import { HouseContext } from "./HouseContext";
 
 const PropertyDropdown = () => {
-  const { property, setProperty, properties } = useContext(HouseContext);
+  const { property, setProperty } = useContext(HouseContext);
   const [isOpen, setIsOpen] = useState(false);
+  const properties = [
+    { value: "Tipe (semua)" },
+    { value: "A1" },
+    { value: "A2" },
+    { value: "A3" },
+    { value: "A4" },
+    { value: "A5" },
+    { value: "A6" },
+    { value: "A7" },
+    { value: "A8" },
+    { value: "A9" },
+    { value: "B1" },
+    { value: "B2" },
+    { value: "B3" },
+    { value: "B4" },
+    { value: "B5" },
+    { value: "B6" },
+    { value: "B7" },
+    { value: "B8" },
+    { value: "B9" },
+    { value: "B10" },
+    { value: "B11" },
+    { value: "C1" },
+    { value: "C2" },
+    { value: "C3" },
+    { value: "C4" },
+    { value: "C5" },
+    { value: "C6" },
+    { value: "C7" },
+  ];
 
   return (
     <Menu as="div" className="dropdown relative">
@@ -21,8 +51,8 @@ const PropertyDropdown = () => {
       <Menu.Items className="dropdown-menu">
         {properties.map((property, index) => {
           return (
-            <Menu.Item onClick={() => setProperty(property)} className="cursor-pointer hover:text-amber-500 transition" as="li" key={index}>
-              {property}
+            <Menu.Item onClick={() => setProperty(property.value)} className="cursor-pointer hover:text-amber-500 transition" as="li" key={index}>
+              {property.value}
             </Menu.Item>
           );
         })}

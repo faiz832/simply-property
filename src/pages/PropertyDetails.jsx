@@ -51,6 +51,7 @@ const PropertyDetails = () => {
             <div className="">{house.poin6}</div>
             <div className="">{house.poin7}</div>
             <div className="">{house.poin8}</div>
+            <div className="">{house.poin9}</div>
           </div>
           <div className="flex flex-col gap-2">
             <h1 className="text-xl font-semibold">Deskripsi</h1>
