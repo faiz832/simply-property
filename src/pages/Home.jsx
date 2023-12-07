@@ -79,8 +79,8 @@ const Home = () => {
       </div>
       <div className="bg-home2">
         <div className="container mx-auto p-12 text-center justify-center flex flex-col gap-4">
-          <h1 className="font-bold text-4xl text-white lg:w-2/4 lg:mx-auto">Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik</h1>
-          <p className="text-xl font-semibold text-white">Buy Your Dream House With Us.</p>
+          <h1 className="font-bold text-3xl md:text-4xl text-white lg:w-2/4 lg:mx-auto">Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik</h1>
+          <p className="md:text-xl md:font-semibold text-white">Beli Tanah Impianmu Bersama Kita.</p>
           <Link to="/propertylist" className="p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white hover:scale-105 ease-in transition duration-300">
             Properties
           </Link>
