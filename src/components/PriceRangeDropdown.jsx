@@ -1,12 +1,12 @@
 import React, { useContext, useState } from "react";
-import { RiWallet3Line, RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
+import { RiWallet3Line, RiArrowDownSLine } from "react-icons/ri";
 import { Menu } from "@headlessui/react";
 import { HouseContext } from "./HouseContext";
 
 const PriceRangeDropdown = () => {
   const { price, setPrice } = useContext(HouseContext);
   const [isOpen, setIsOpen] = useState(false);
-  const prices = [{ value: "Harga (semua)" }, { value: "40jt - 50jt" }, { value: "50jt - 60jt" }, { value: "60jt - 70jt" }, { value: "70jt - 100jt" }];
+  const prices = [{ value: "Harga (semua)" }, { value: "40JT - 50JT" }, { value: "50JT - 60JT" }, { value: "60JT - 70JT" }, { value: "70JT - 80JT" }, { value: "80JT - 90JT" }, { value: "90JT - 100JT" }, { value: "100JT - 110JT" }];
 
   return (
     <Menu as="div" className="dropdown relative">
@@ -16,7 +16,7 @@ const PriceRangeDropdown = () => {
           <div className="text-[15px] font-medium leading-tight">{price}</div>
           <div className="text-[13px]">Pilih harga</div>
         </div>
-        {isOpen ? <RiArrowUpSLine className="dropdown-icon-secondary" /> : <RiArrowDownSLine className="dropdown-icon-secondary" />}
+        <RiArrowDownSLine className="dropdown-icon-secondary" />
       </Menu.Button>
 
       <Menu.Items className="dropdown-menu">

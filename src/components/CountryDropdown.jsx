@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { RiMapPinLine, RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
+import { RiMapPinLine, RiArrowDownSLine } from "react-icons/ri";
 import { Menu } from "@headlessui/react";
 import { HouseContext } from "./HouseContext";
 
@@ -15,7 +15,7 @@ const CountryDropdown = () => {
           <div className="text-[15px] font-medium leading-tight">{country}</div>
           <div className="text-[13px]">Pilih lokasi</div>
         </div>
-        {isOpen ? <RiArrowUpSLine className="dropdown-icon-secondary" /> : <RiArrowDownSLine className="dropdown-icon-secondary" />}
+        <RiArrowDownSLine className="dropdown-icon-secondary" />
       </Menu.Button>
 
       <Menu.Items className="dropdown-menu">
