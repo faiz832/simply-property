@@ -10,7 +10,7 @@ const About = () => {
     <div className="">
       <div className="bg-about py-16 items-center justify-center">
         <div className="container mx-auto">
-          <h1 className="text-4xl lg:text-6xl font-semibold flex flex-col gap-4 text-white">
+          <h1 className="text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-white">
             Tentang Kami<span>Juragan Kavling</span>
           </h1>
           <p className="text-white mt-8 max-w-[440px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsum porro ea dolore excepturi nobis tempora ullam accusamus repellat quasi!</p>
@@ -65,7 +65,7 @@ const About = () => {
                         {/* just for getting state of item */}
                         <AccordionItemState>{({ expanded }) => (expanded ? setClassName("expanded") : setClassName("collapsed"))}</AccordionItemState>
                         <div className="flex items-center justify-center p-2.5 rounded bg-gray-200">{item.icon}</div>
-                        <span className="font-bold md:text-xl md:font-semibold">{item.heading}</span>
+                        <span className="font-bold text-sm md:text-xl md:font-semibold">{item.heading}</span>
                         <div className="flex items-center justify-center p-2.5 rounded bg-gray-200">
                           <MdOutlineArrowDropDown size={20} />
                         </div>
