@@ -21,7 +21,7 @@ const CountryDropdown = () => {
       <Menu.Items className="dropdown-menu">
         {countries.map((country, index) => {
           return (
-            <Menu.Item onClick={() => setCountry(country)} className="cursor-pointer hover:text-violet-700 transition" as="li" key={index}>
+            <Menu.Item onClick={() => setCountry(country)} className="cursor-pointer hover:text-amber-500 transition" as="li" key={index}>
               {country}
             </Menu.Item>
           );

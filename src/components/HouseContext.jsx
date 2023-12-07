@@ -53,7 +53,6 @@ const HouseContextProvider = ({ children }) => {
 
     const newHouses = housesData.filter((house) => {
       const housePrice = parseInt(house.price);
-
       //if all value are selected
       if (house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice) {
         return house;
@@ -102,6 +101,7 @@ const HouseContextProvider = ({ children }) => {
     });
 
     setTimeout(() => {
+      // eslint-disable-next-line no-sequences
       return newHouses.length < 1 ? setHouses([]) : setHouses(newHouses), setLoading(false);
     }, 300);
 
