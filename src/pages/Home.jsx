@@ -59,7 +59,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
               hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
             </p>
-            <Link to="/about" className="mt-2 p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white">
+            <Link to="/about" className="mt-2 p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white hover:scale-105 ease-in transition duration-300">
               About Us
             </Link>
           </div>
@@ -81,7 +81,7 @@ const Home = () => {
         <div className="container mx-auto p-12 text-center justify-center flex flex-col gap-4">
           <h1 className="font-bold text-4xl text-white lg:w-2/4 lg:mx-auto">Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik</h1>
           <p className="text-xl font-semibold text-white">Buy Your Dream House With Us.</p>
-          <Link to="/propertylist" className="p-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white">
+          <Link to="/propertylist" className="p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white hover:scale-105 ease-in transition duration-300">
             Properties
           </Link>
         </div>
@@ -105,7 +105,7 @@ const Home = () => {
               <h1 className=" text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto obcaecati quasi, quisquam quam sapiente itaque repellat atque voluptatum quidem libero quos eaque sunt rem sed corrupti, nesciunt labore
               </h1>
-              <a href="https://t.me/simplyproperty" target="blank" className="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 w-36 justify-center rounded-full py-1 mt-2">
+              <a href="https://t.me/simplyproperty" target="blank" className="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 w-36 justify-center rounded-full py-1 mt-2 hover:scale-105 ease-in transition duration-300">
                 <BiLogoTelegram className="text-white me-2" size={20} /> <p className="font-semibold text-white text-md">Telegram</p>
               </a>
             </div>

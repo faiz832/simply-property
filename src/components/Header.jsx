@@ -28,7 +28,12 @@ const Header = () => {
               PROPERTIES
             </Link>
           </div>
-          <a href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!" target="blank" className="text-sm bg-[#252525] hover:bg-black text-white px-4 py-3 rounded-lg" onClick={() => showMenu(false)}>
+          <a
+            href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!"
+            target="blank"
+            className="text-sm bg-[#252525] hover:bg-black hover:scale-105 ease-in transition duration-300 text-white px-4 py-3 rounded-lg"
+            onClick={() => showMenu(false)}
+          >
             CONTACT US
           </a>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 const House = ({ house }) => {
   const { image, type, address, daerah, price } = house;
   return (
-    <div className="bg-white p-5 rounded-lg w-full max-w-[325px] mx-auto cursor-pointer hover:shadow-2xl transition">
+    <div className="bg-white p-5 rounded-lg w-full max-w-[325px] mx-auto cursor-pointer hover:shadow-2xl hover:scale-105 ease-in transition duration-300">
       <div className="mb-4 rounded-xl overflow-hidden">
         <img src={image} alt="img" className="w-full h-[165px]" />
       </div>
