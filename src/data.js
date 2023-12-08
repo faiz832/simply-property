@@ -14,6 +14,7 @@ import gambar4 from "./assets/img/dealdone/deal4.jpg";
 import gambar5 from "./assets/img/dealdone/deal5.jpg";
 import gambar6 from "./assets/img/dealdone/deal6.jpg";
 import gambar7 from "./assets/img/dealdone/deal7.jpg";
+import gambar8 from "./assets/img/dealdone/deal8.jpg";
 
 //testi
 import person1 from "./assets/img/testimoni/person1.png";
@@ -679,6 +680,11 @@ export const dealDone = [
   {
     id: 7,
     img: gambar7,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+  },
+  {
+    id: 8,
+    img: gambar8,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
   },
 ];
