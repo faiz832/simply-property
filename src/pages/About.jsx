@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AboutImg from "../assets/img/aboutImg.jpg";
+import AboutImg from "../assets/img/aboutImg.png";
 import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, AccordionItemPanel, AccordionItemState } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";

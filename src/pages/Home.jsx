@@ -89,7 +89,7 @@ const Home = () => {
       <div className="container mx-auto my-16">
         <div className="mb-12 text-center">
           <h2 className="font-bold text-3xl">Testimoni</h2>
-          <p className="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque.</p>
+          <p className="text-sm mt-2">Pengalaman Memuaskan Menurut Ulasan Pelanggan Terpercaya</p>
         </div>
         <div>
           <TestimoniSlider />

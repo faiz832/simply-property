@@ -65,7 +65,7 @@ html {
   display: flex;
   width: auto;
   height: 400px;
-  background: url(./assets/img/profile.jpeg);
+  background: url(./assets/img/bghome1.png);
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ html {
 .home-img {
   width: 30rem;
   height: 35rem;
-  background: url(./assets/img/home-img.png);
+  background: url(./assets/img/home.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ html {
   display: flex;
   width: auto;
   height: 400px;
-  background: url(./assets/img/bghome2.jpg);
+  background: url(./assets/img/bghome2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +114,7 @@ html {
   display: flex;
   width: auto;
   height: 400px;
-  background: url(./assets/img/bgabout.jpg);
+  background: url(./assets/img/bgabout.png);
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;

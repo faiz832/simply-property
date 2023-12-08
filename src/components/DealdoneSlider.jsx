@@ -9,7 +9,7 @@ const DealdoneSlider = () => {
     return (
       <div className="rounded shadow-lg bg-white overflow-hidden" key={index}>
         <img src={result.img} alt="" className="mb-2" />
-        <p className="p-2 text-sm">{result.desc}</p>
+        <p className="p-2 text-sm text-center">{result.desc}</p>
       </div>
     );
   });

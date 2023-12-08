@@ -653,42 +653,42 @@ export const dealDone = [
   {
     id: 1,
     img: gambar1,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 2,
     img: gambar2,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 3,
     img: gambar3,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 4,
     img: gambar4,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 5,
     img: gambar5,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 6,
     img: gambar6,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 7,
     img: gambar7,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
   {
     id: 8,
     img: gambar8,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    desc: "Proses penyerahan sertifikat tanah kepada pelanggan simply property",
   },
 ];
 
