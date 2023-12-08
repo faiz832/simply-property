@@ -17,7 +17,10 @@ import gambar7 from "./assets/img/dealdone/deal7.jpg";
 import gambar8 from "./assets/img/dealdone/deal8.jpg";
 
 //testi
-import person1 from "./assets/img/testimoni/person1.png";
+import person1 from "./assets/img/testimoni/testi2.png";
+import person2 from "./assets/img/testimoni/testi1.jpg";
+import person3 from "./assets/img/testimoni/testi3.png";
+import person4 from "./assets/img/testimoni/testi4.png";
 
 export const housesData = [
   {
@@ -693,31 +696,21 @@ export const testimoni = [
   {
     id: 1,
     img: person1,
-    text: "Amanah, dijamin top deh. pilih yang oke oke aja",
+    text: "Alhamdulillah. timnya ramah, owner-nya juga ramah, dan harganya pun juga ramah",
   },
   {
     id: 2,
-    img: person1,
-    text: "Pelayanannya baik, fast respon. Pokoknya saya saranin beli tanah disini deh",
+    img: person2,
+    text: "Admin-adminnya orangnya baik, sertifikatnya juga cepet sesuai dengan schedule",
   },
   {
     id: 3,
-    img: person1,
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ullam eaque",
+    img: person3,
+    text: "Pembayarannya mudah, bisa cash atau angsur. Angsurannya juga mudah. Timnya juga baik",
   },
   {
     id: 4,
-    img: person1,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
-  },
-  {
-    id: 5,
-    img: person1,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
-  },
-  {
-    id: 6,
-    img: person1,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat.",
+    img: person4,
+    text: "Admin-adminnya orangnya baik, sertifikatnya juga cepet sesuai dengan schedule",
   },
 ];

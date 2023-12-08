@@ -8,7 +8,7 @@ const TestimoniSlider = () => {
   const Testimoni = testimoni.map((result, index) => {
     return (
       <div className="testi-wrapper" key={index}>
-        <img src={result.img} alt="" className="mb-2" />
+        <img src={result.img} alt="img" className="mb-2 rounded-full" />
         <p className="p-2 px-8 text-xs text-center">{result.text}</p>
       </div>
     );
