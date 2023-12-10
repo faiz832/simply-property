@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex flex-col container mx-auto gap-y-4 text-center lg:flex-row lg:justify-between">
         <div className="lg:text-start w-3/4 md:w-2/4 mx-auto lg:mx-0 lg:w-1/6">
           <img src={FooterLogo} alt="footer img" className="w-52 mx-auto lg:mx-0" />
-          <p className="text-xs my-4 lg:text-justify lg:w-48 xl:w-52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi, fuga ad sapiente doloribus mollitia?</p>
+          <p className="text-xs my-4 lg:text-justify lg:w-48 xl:w-52">Sukses Mulia Property. Jasa Penjualan Tanah Kavling. Juragan Tanah Kavling.</p>
         </div>
         <div className="flex flex-col gap-2 lg:text-start">
           <h1 className="font-semibold">EXPLORE</h1>
