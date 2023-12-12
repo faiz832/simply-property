@@ -40,8 +40,17 @@ const PropertyDetails = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-4">
-          <div className="w-full">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-12">
+          <div className="flex flex-col gap-2 lg:w-2/4">
+            <h1 className="text-xl font-semibold">Deskripsi</h1>
+            <div className="text-justify">{house.description}</div>
+            <div className="flex mt-2">
+              <a href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!" target="blank" className="py-2 px-4 rounded bg-slate-800 text-white hover:scale-105 ease-in transition duration-300">
+                Beli Sekarang
+              </a>
+            </div>
+          </div>
+          <div className="">
             <h1 className="text-xl font-semibold mb-2">Poin Plus</h1>
             <div className="">{house.poin1}</div>
             <div className="">{house.poin2}</div>
@@ -52,15 +61,6 @@ const PropertyDetails = () => {
             <div className="">{house.poin7}</div>
             <div className="">{house.poin8}</div>
             <div className="">{house.poin9}</div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <h1 className="text-xl font-semibold">Deskripsi</h1>
-            <div className="text-justify">{house.description}</div>
-            <div className="flex mt-2">
-              <a href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!" target="blank" className="py-2 px-4 rounded bg-slate-800 text-white hover:scale-105 ease-in transition duration-300">
-                Beli Sekarang
-              </a>
-            </div>
           </div>
         </div>
       </div>

@@ -28,13 +28,9 @@ const About = () => {
             <h1 className="font-bold text-4xl lg:text-6xl">
               Pilihan Terbaik <br /> Aset Property Anda
             </h1>
-            <p className="text-justify">
-              Kami berpengalaman sejak tahun 2011. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet hic molestias fugit
-              voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
-            </p>
-            <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
-              hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
+            <p className="text-justify mt-2">
+              Simply Property adalah agency penjualan Tanah khusus SHM Pekarangan yang sudah mendistribusikan Tanah sebanyak -+ 73 Unit Tanah sejak Agustus 2019 - Sekarang ( 2023 ). Kami juga melayani jasa pesan bangun dan berpengalaman
+              dalam jasa kontraktor sejak tahun 2011. Kantor kami berlokasikan di Dusun Tuban Lor, rt 1/rw 4, Tuban, Gondangrejo, Karanganyar, Jawa Tengah.
             </p>
             <p className="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
@@ -46,8 +42,8 @@ const About = () => {
       <div className="bg-gray-200 py-8"></div>
       <div className="container mx-auto mt-16 mb-28 flex flex-col md:flex-row">
         <div className="mb-12 md:w-2/6 mx-4 flex flex-col gap-2">
-          <h1 className="font-bold text-2xl text-amber-500">Our Service</h1>
-          <h1 className="font-bold text-3xl">Value We Give to You</h1>
+          <h1 className="font-bold text-2xl text-amber-500">Pelayanan Kami</h1>
+          <h1 className="font-bold text-3xl">Nilai yang kami berikan kepada Anda</h1>
           <p className="text-justify">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere impedit quisquam vitae sed aspernatur tempore sequi quibusdam natus. Facere quas aut vel aspernatur atque placeat odit doloremque ipsum est ut? asd topoasd
           </p>
