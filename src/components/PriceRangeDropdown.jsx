@@ -6,7 +6,13 @@ import { HouseContext } from "./HouseContext";
 const PriceRangeDropdown = () => {
   const { price, setPrice } = useContext(HouseContext);
   const [isOpen, setIsOpen] = useState(false);
-  const prices = [{ value: "Harga (semua)" }, { value: "40JT - 50JT" }, { value: "50JT - 60JT" }, { value: "60JT - 70JT" }, { value: "70JT - 80JT" }, { value: "80JT - 90JT" }, { value: "90JT - 100JT" }, { value: "100JT - 110JT" }];
+  const prices = [
+    { value: "Harga (semua)" },
+    { value: "40JT - 60JT" },
+    { value: "60JT - 80JT" },
+    { value: "80JT - 100JT" },
+    { value: "100JT - 200JT" },
+  ];
 
   return (
     <Menu as="div" className="dropdown relative">
@@ -22,7 +28,12 @@ const PriceRangeDropdown = () => {
       <Menu.Items className="dropdown-menu">
         {prices.map((price, index) => {
           return (
-            <Menu.Item onClick={() => setPrice(price.value)} className="cursor-pointer hover:text-amber-500 transition" as="li" key={index}>
+            <Menu.Item
+              onClick={() => setPrice(price.value)}
+              className="cursor-pointer hover:text-amber-500 transition"
+              as="li"
+              key={index}
+            >
               {price.value}
             </Menu.Item>
           );
