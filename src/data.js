@@ -344,7 +344,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -364,7 +364,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -384,7 +384,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -404,7 +404,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -424,7 +424,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -444,7 +444,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -464,7 +464,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -484,7 +484,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -504,7 +504,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -524,7 +524,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -544,7 +544,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -564,7 +564,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -584,7 +584,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -604,7 +604,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -624,7 +624,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
@@ -644,7 +644,7 @@ export const housesData = [
     poin5: "✅  4 Menit ke SMA Negeri 1 Nogosari",
     poin6: "✅  21 Menit ke Bandara Internasional Adi soemarmo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+      "Membeli tanah bukan hanya tentang lokasi tanah sesuai... melainkan berkaitan dengan seritikat.. jangan tergiur dengan harga yang sangat murah tetapi sertifikat tidak ada... Oleh karena itu percayakan SIMPLY PROPERTY sebagai developer tempat anda membeli tanah. Pasti prosesnya, Pasti Legalnya, Pasti jadi sertfifikatnya",
     image: Kavling3,
     imageLg: Kavling3,
     country: "Boyolali",
