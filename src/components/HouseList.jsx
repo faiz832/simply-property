@@ -13,7 +13,11 @@ const HouseList = () => {
   }
 
   if (houses.length < 1) {
-    return <div className="text-center text-xl md:text-3xl text-gray-400 mt-48">Maaf Kategori Belum Tersedia</div>;
+    return (
+      <div className="text-center text-xl md:text-3xl text-gray-400 mt-48">
+        Maaf Kategori Belum Tersedia
+      </div>
+    );
   }
 
   return (
