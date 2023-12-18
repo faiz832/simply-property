@@ -45,7 +45,11 @@ const PropertyDetails = () => {
             <h1 className="text-xl font-semibold">Deskripsi</h1>
             <div className="text-justify">{house.description}</div>
             <div className="flex mt-2">
-              <a href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!" target="blank" className="py-2 px-4 rounded bg-slate-800 text-white hover:scale-105 ease-in transition duration-300">
+              <a
+                href="https://wa.me/6282377220212?text=Halo, Saya tertarik dengan property anda!"
+                target="blank"
+                className="py-2 px-4 rounded bg-slate-800 text-white hover:scale-105 ease-in transition duration-300"
+              >
                 Beli Sekarang
               </a>
             </div>
@@ -61,6 +65,8 @@ const PropertyDetails = () => {
             <div className="">{house.poin7}</div>
             <div className="">{house.poin8}</div>
             <div className="">{house.poin9}</div>
+            <div className="">{house.poin10}</div>
+            <div className="">{house.poin11}</div>
           </div>
         </div>
       </div>

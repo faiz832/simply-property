@@ -9,6 +9,8 @@ import Kavling4 from "./assets/img/POJOK1/Lokasi.jpg";
 import Denah4 from "./assets/img/POJOK1/DENAH POJOK LAWAS.png";
 import Kavling5 from "./assets/img/KEBAKRAMAT/lokasi.jpg";
 import Denah5 from "./assets/img/KEBAKRAMAT/DENAH KAVLING KEBAKKRAMAT.png";
+import Kavling6 from "./assets/img/TUBAN LOR2/lokasi.jpg";
+import Denah6 from "./assets/img/TUBAN LOR2/DENAH TUBAN LOR 3.png";
 
 //dealdone
 import gambar1 from "./assets/img/dealdone/deal1.jpg";
@@ -1044,8 +1046,33 @@ export const housesData = [
     country: "Karanganyar",
     daerah: "Kebakkramat",
     address: "Kebakkramat, Karanganyar",
-    price: "91",
+    price: "93",
     denah: Denah5,
+  },
+  {
+    id: 49,
+    type: "A1",
+    name: "Tanah Tuban Lor 2",
+    poin1: "✅  2 menit Apotik Kalioso",
+    poin2: "✅  2 menit Pasar Kalioso",
+    poin3: "✅  2 menit SDN 2 Tuban",
+    poin4: "✅  2 menit Terminal Kalioso",
+    poin5: "✅  3 menit Pasar Sapi",
+    poin6: "✅  3 menit Koramil Gondangrejo",
+    poin7: "✅  3 menit Stasiun Kalioso",
+    poin8: "✅  4 menit Kantor Kecamatan Gondangrejo",
+    poin9: "✅ 5 menit SPBU Kalijambe",
+    poin10: "✅ 8 menit SPBU Gondangrejo",
+    poin11: "✅ 15 menit Tol Gate Gondangrejo",
+    description:
+      "Tanah strategis di daerah Tuban, (Kalioso) yang sangat dekat dengan jalan Solo-Purwodadi. Tanah ini memiliki luas 72 m2 dengan status hak milik (SHM PEKARANGAN) yang jelas dan aman. Terletak di area lingkungan yang islami dan nyaman, tanah ini menawarkan potensi yang menarik untuk investasi ataupun untuk hunian keluarga anda.",
+    image: Kavling6,
+    imageLg: Kavling6,
+    country: "Karanganyar",
+    daerah: "Gondangrejo",
+    address: "Gondangrejo, Karanganyar",
+    price: "108",
+    denah: Denah6,
   },
 ];
 
