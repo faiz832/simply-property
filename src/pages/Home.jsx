@@ -16,7 +16,10 @@ const Home = () => {
           <h1 className="text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-white">
             Temukan Property <span> Masa Depan Anda</span>
           </h1>
-          <p className="text-white mt-8 max-w-[440px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsum porro ea dolore excepturi nobis tempora ullam accusamus repellat quasi!</p>
+          <p className="text-white mt-8 max-w-[440px]">
+            Pilihlah kavling yang tidak hanya menawarkan investasi yang berkembang, tetapi juga
+            memungkinkan Anda membangun kisah sukses Anda sendiri.{" "}
+          </p>
         </div>
       </div>
       <div className="container mx-auto flex flex-row justify-center gap-2 md:gap-14 lg:gap-20 my-8">
@@ -24,7 +27,7 @@ const Home = () => {
           <MdOutlineRealEstateAgent className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={100} duration={4} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={104} duration={4} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Premium Quality</span>
           </div>
@@ -33,7 +36,7 @@ const Home = () => {
           <MdOutlineHomeWork className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={100} duration={4} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={75} duration={4} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Property Terjual</span>
           </div>
@@ -42,7 +45,7 @@ const Home = () => {
           <HiOutlineUserGroup className="text-2xl lg:text-4xl" />
           <div className="flex flex-col items-center">
             <span className="font-semibold text-xl lg:text-2xl">
-              <CountUp start={0} end={100} duration={4} /> <span className="text-amber-500">+</span>
+              <CountUp start={0} end={75} duration={4} /> <span className="text-amber-500">+</span>
             </span>
             <span className="text-sm text-center lg:text-base">Happy Customer</span>
           </div>
@@ -56,10 +59,18 @@ const Home = () => {
               Pilihan Terbaik <br /> Sepanjang Masa
             </h1>
             <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
-              hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
+              Kami menghadirkan rangkaian properti pilihan dengan kualitas dan potensi investasi
+              yang tak tertandingi. Dari kavling eksklusif hingga proyek properti terbaru, setiap
+              pilihan kami disaring untuk memberikan pengalaman investasi yang unggul. Kami
+              berkomitmen untuk menawarkan pilihan yang tidak hanya menghadirkan nilai saat ini,
+              tetapi juga membangun fondasi untuk masa depan yang kokoh. Jelajahi koleksi properti
+              terbaik kami, dan pilihlah keunggulan untuk menginspirasi setiap langkah Anda menuju
+              keberhasilan properti.
             </p>
-            <Link to="/about" className="mt-2 p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white hover:scale-105 ease-in transition duration-300">
+            <Link
+              to="/about"
+              className="mt-2 p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-2/6 md:w-1/4 text-center font-semibold text-white hover:scale-105 ease-in transition duration-300"
+            >
               About Us
             </Link>
           </div>
@@ -79,9 +90,16 @@ const Home = () => {
       </div>
       <div className="bg-home2">
         <div className="container mx-auto p-12 text-center justify-center flex flex-col gap-4">
-          <h1 className="font-bold text-3xl md:text-4xl text-white lg:w-2/4 lg:mx-auto">Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik</h1>
-          <p className="md:text-xl md:font-semibold text-white">Beli Tanah Impianmu Bersama Kita.</p>
-          <Link to="/propertylist" className="p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white hover:scale-105 ease-in transition duration-300">
+          <h1 className="font-bold text-3xl md:text-4xl text-white lg:w-2/4 lg:mx-auto">
+            Kami Membantu Anda Membuat Kesepakatan yang Lebih Baik
+          </h1>
+          <p className="md:text-xl md:font-semibold text-white">
+            Beli Tanah Impianmu Bersama Kita.
+          </p>
+          <Link
+            to="/propertylist"
+            className="p-2 rounded bg-gradient-to-r from-amber-500 to-yellow-500 w-[11rem] md:w-[11rem] lg:w-[10rem] mx-auto font-semibold text-white hover:scale-105 ease-in transition duration-300"
+          >
             Properties
           </Link>
         </div>
@@ -103,10 +121,19 @@ const Home = () => {
               <h1 className="text-4xl font-bold text-white">FREE !</h1>
               <h1 className=" text-xl font-bold text-[#f8c97b]">Join Our Dropship</h1>
               <h1 className=" text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto obcaecati quasi, quisquam quam sapiente itaque repellat atque voluptatum quidem libero quos eaque sunt rem sed corrupti, nesciunt labore
+                Bergabunglah dengan Program Dropship Tanah Kavling kami sekarang! Dapatkan
+                keuntungan menarik, dukungan pemasaran, dan akses eksklusif ke portofolio properti
+                terbaik. Jadilah mitra kesuksesan kami, bantu orang temukan tanah kavling impian,
+                dan raih penghargaan finansial. Ayo, jadilah agen properti kami, wujudkan impian
+                investasi properti bersama!
               </h1>
-              <a href="https://t.me/simplyproperty" target="blank" className="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 w-36 justify-center rounded-full py-1 mt-2 hover:scale-105 ease-in transition duration-300">
-                <BiLogoTelegram className="text-white me-2" size={20} /> <p className="font-semibold text-white text-md">Telegram</p>
+              <a
+                href="https://t.me/simplyproperty"
+                target="blank"
+                className="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 w-36 justify-center rounded-full py-1 mt-2 hover:scale-105 ease-in transition duration-300"
+              >
+                <BiLogoTelegram className="text-white me-2" size={20} />{" "}
+                <p className="font-semibold text-white text-md">Telegram</p>
               </a>
             </div>
           </div>

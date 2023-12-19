@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import AboutImg from "../assets/img/aboutImg.png";
-import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, AccordionItemPanel, AccordionItemState } from "react-accessible-accordion";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+  AccordionItemState,
+} from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import data from "../components/accordion";
@@ -13,7 +20,10 @@ const About = () => {
           <h1 className="text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-white">
             Tentang Kami<span>Juragan Kavling</span>
           </h1>
-          <p className="text-white mt-8 max-w-[440px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsum porro ea dolore excepturi nobis tempora ullam accusamus repellat quasi!</p>
+          <p className="text-white mt-8 max-w-[440px]">
+            Sebagai tim berbakat, dengan komitmen untuk memberikan pengalaman terbaik, menjadi mitra
+            terpercaya dan membangun masa depan gemilang bersama Anda.
+          </p>
         </div>
       </div>
       <div className="bg-gray-200 py-8"></div>
@@ -29,12 +39,20 @@ const About = () => {
               Pilihan Terbaik <br /> Aset Property Anda
             </h1>
             <p className="text-justify mt-2">
-              Simply Property adalah agency penjualan Tanah khusus SHM Pekarangan yang sudah mendistribusikan Tanah sebanyak -+ 73 Unit Tanah sejak Agustus 2019 - Sekarang ( 2023 ). Kami juga melayani jasa pesan bangun dan berpengalaman
-              dalam jasa kontraktor sejak tahun 2011. Kantor kami berlokasikan di Dusun Tuban Lor, rt 1/rw 4, Tuban, Gondangrejo, Karanganyar, Jawa Tengah.
+              Simply Property adalah agency penjualan Tanah khusus SHM Pekarangan yang sudah
+              mendistribusikan Tanah sebanyak -+ 73 Unit Tanah sejak Agustus 2019 - Sekarang ( 2023
+              ). Kami juga melayani jasa pesan bangun dan berpengalaman dalam jasa kontraktor sejak
+              tahun 2011. Kantor kami berlokasikan di Dusun Tuban Lor, rt 1/rw 4, Tuban,
+              Gondangrejo, Karanganyar, Jawa Tengah.
             </p>
             <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore non nemo maiores qui odio dicta cupiditate impedit distinctio similique debitis beatae sed blanditiis, sunt magnam sint nobis ipsa architecto quidem, amet
-              hic molestias fugit voluptas! Eos id tempora harum, at minus aut magni est, tenetur explicabo quibusdam, veniam quisquam.
+              Kami menghadirkan rangkaian properti pilihan dengan kualitas dan potensi investasi
+              yang tak tertandingi. Dari kavling eksklusif hingga proyek properti terbaru, setiap
+              pilihan kami disaring untuk memberikan pengalaman investasi yang unggul. Kami
+              berkomitmen untuk menawarkan pilihan yang tidak hanya menghadirkan nilai saat ini,
+              tetapi juga membangun fondasi untuk masa depan yang kokoh. Jelajahi koleksi properti
+              terbaik kami, dan pilihlah keunggulan untuk menginspirasi setiap langkah Anda menuju
+              keberhasilan properti.
             </p>
           </div>
         </div>
@@ -45,7 +63,10 @@ const About = () => {
           <h1 className="font-bold text-2xl text-amber-500">Pelayanan Kami</h1>
           <h1 className="font-bold text-3xl">Nilai yang kami berikan kepada Anda</h1>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere impedit quisquam vitae sed aspernatur tempore sequi quibusdam natus. Facere quas aut vel aspernatur atque placeat odit doloremque ipsum est ut? asd topoasd
+            Kami membawa komitmen kami untuk memberikan pengalaman properti yang luar biasa. Dengan
+            fokus pada transparansi, keandalan, dan pelayanan terbaik, kami berusaha memberikan
+            nilai tambah kepada setiap langkah investasi Anda. Dari proses pembelian yang lancar
+            hingga layanan pelanggan yang responsif, kami memprioritaskan kepuasan Anda.
           </p>
         </div>
         <div className="flex gap-4 flex-col md:w-3/4 mx-auto md:justify-start lg:px-12 lg:w-4/6">
@@ -59,9 +80,17 @@ const About = () => {
                     <AccordionItemHeading>
                       <AccordionItemButton className="flex items-center bg-white p-4 w-full justify-between cursor-pointer">
                         {/* just for getting state of item */}
-                        <AccordionItemState>{({ expanded }) => (expanded ? setClassName("expanded") : setClassName("collapsed"))}</AccordionItemState>
-                        <div className="flex items-center justify-center p-2.5 rounded bg-gray-200">{item.icon}</div>
-                        <span className="font-bold text-sm md:text-xl md:font-semibold">{item.heading}</span>
+                        <AccordionItemState>
+                          {({ expanded }) =>
+                            expanded ? setClassName("expanded") : setClassName("collapsed")
+                          }
+                        </AccordionItemState>
+                        <div className="flex items-center justify-center p-2.5 rounded bg-gray-200">
+                          {item.icon}
+                        </div>
+                        <span className="font-bold text-sm md:text-xl md:font-semibold">
+                          {item.heading}
+                        </span>
                         <div className="flex items-center justify-center p-2.5 rounded bg-gray-200">
                           <MdOutlineArrowDropDown size={20} />
                         </div>

@@ -5,23 +5,27 @@ import { IoIosInformationCircle } from "react-icons/io";
 const data = [
   {
     icon: <IoIosInformationCircle />,
-    heading: "Informasi Terkini",
-    detail: "Pembaruan harian harga properti. Laporan pasar terbaru dan tren investasi. Berita sektor real estate yang relevan.",
+    heading: "Transparansi Utama",
+    detail:
+      "Kami berkomitmen untuk menjaga transparansi dalam setiap transaksi dan informasi properti, memberikan Anda kejelasan yang Anda butuhkan untuk membuat keputusan yang tepat.",
   },
   {
     icon: <MdDescription />,
-    heading: "Deskripsi yang Komprehensif",
-    detail: "Detail fitur properti termasuk jumlah kamar, fasilitas, dan lingkungan sekitar. Informasi hukum dan teknis yang relevan.",
+    heading: "Keandalan Tanpa Kompromi",
+    detail:
+      "Dengan dedikasi untuk memberikan layanan yang dapat diandalkan, Anda dapat mempercayakan kami sebagai mitra terpercaya dalam perjalanan properti Anda.",
   },
   {
     icon: <RiCustomerService2Fill />,
-    heading: "Dukungan Pelanggan",
-    detail: "Siap 24/7 survei lokasi. survei lokasi kapanpun dan dimanapun kami akan bersedia dengan senang hati.",
+    heading: "Pelayanan Terbaik",
+    detail:
+      "Tim kami yang berdedikasi siap memberikan pelayanan terbaik, dari pertanyaan awal hingga purna jual, memastikan pengalaman pelanggan yang memuaskan.",
   },
   {
     icon: <RiBook2Fill />,
-    heading: "Panduan Pembelian Properti",
-    detail: "Langkah-langkah jelas dari awal hingga akhir proses pembelian. Informasi peraturan dan pajak terkait pembelian properti.",
+    heading: "Responsif dan Terhubung",
+    detail:
+      "Layanan pelanggan yang responsif adalah prioritas kami. Kami selalu siap mendengarkan pertanyaan dan masukan Anda, menjadikan Anda bagian integral dari setiap langkah dalam perjalanan properti Anda.",
   },
 ];
 export default data;
